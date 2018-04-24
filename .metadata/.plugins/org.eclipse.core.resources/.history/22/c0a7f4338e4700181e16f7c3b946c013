@@ -1,0 +1,13 @@
+
+public class PrintDiamond {
+
+	public static void main(String[] args) {
+		for (int line=0; line<4; ++line)
+		{
+			for(int kong=4; kong>i; --kong)
+			{
+				
+			}
+		}
+	}
+}

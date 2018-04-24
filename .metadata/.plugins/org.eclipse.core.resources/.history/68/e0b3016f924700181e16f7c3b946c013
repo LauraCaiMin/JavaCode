@@ -1,0 +1,31 @@
+
+public class PracticeWhile {
+	static int max=20;
+	public static void main(String []args)
+	{
+		/*float sum = 0;
+		int index = 1;
+		while(index <= max)
+		{
+			float factorial = 1;
+			int index2 = 1;
+			while(index2<=index)
+			{
+				factorial /= index2;
+				++index2;
+			}
+			sum += factorial;
+			++index;
+		}
+		System.out.println(sum);*/
+	      double sum = 0,a = 1;
+	      int i = 1;
+	      while(i <= 20)
+	      {
+	    	  sum = sum+a;
+	    	  i = i+1;
+	    	  a = a*(1.0/i);
+	      }
+	      System.out.println(sum);
+	}
+}

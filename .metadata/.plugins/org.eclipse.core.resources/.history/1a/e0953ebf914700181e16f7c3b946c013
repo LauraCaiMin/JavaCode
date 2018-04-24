@@ -1,0 +1,19 @@
+
+public class PracticeWhile {
+	static int max=20;
+	public static void main(String []args)
+	{
+		int sum = 0;
+		int index = 1;
+		while(index <= max)
+		{
+			int factorial = 1;
+			int index2 = 1;
+			while(index2<index)
+			{
+				factorial /= index2;
+				++index2;
+			}
+		}
+	}
+}

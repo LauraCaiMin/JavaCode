@@ -1,0 +1,19 @@
+
+public class PrintDiamond {
+
+	public static void main(String[] args) {
+		for (int line=0; line<4; ++line)
+		{
+			for(int kong = 4; kong > line; --kong)
+			{
+				System.out.print(' ');
+			}
+			for(int xing = 0; xing < 2*line+1; ++xing)
+			{
+				System.out.print('*');
+			}
+			System.out.print('\n');
+		}
+		for()
+	}
+}
